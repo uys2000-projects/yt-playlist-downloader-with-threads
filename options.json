@@ -1,0 +1,13 @@
+{
+  "threads": 12,
+  "ytdl": {
+    "format": "bestaudio/best",
+    "outtmpl": "music/%(title)s.%(ext)s",
+    "postprocessors": [
+      {
+        "key": "FFmpegExtractAudio",
+        "preferredcodec": "mp3"
+      }
+    ]
+  }
+}
